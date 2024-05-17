@@ -4,9 +4,11 @@ import Header from '~/components/header'
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Header />
-      {children}
-      <Footer />
+      <main className="px-30">
+        <Header />
+        {children}
+        <Footer />
+      </main>
     </>
   )
 }

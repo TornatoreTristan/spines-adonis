@@ -5,17 +5,17 @@ import Button from './ui/cta/button'
 export default function Header() {
   return (
     <>
-      <header className="flex flex-justify-between flex-items-center py-5 px-20">
-        <div className="w-20">
+      <header className="flex flex-justify-between flex-items-center py-5">
+        <div className="w-30%">
           <a href="/">
-            <LogoSpines />
+            <LogoSpines width={100} />
           </a>
         </div>
         <div>
           <Nav />
         </div>
-        <div>
-          <Button>Démarrer un projet</Button>
+        <div className="w-30% flex flex-justify-end">
+          <Button link="/contact/">Démarrer un projet</Button>
         </div>
       </header>
     </>

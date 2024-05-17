@@ -1,4 +1,4 @@
-export default function LogoSpines() {
+export default function LogoSpines({ width }: { width: number }) {
   return (
     <>
       <svg
@@ -6,6 +6,7 @@ export default function LogoSpines() {
         data-name="Calque 1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1500 800"
+        width={width}
       >
         <path
           fill="#fff"
